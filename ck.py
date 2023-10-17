@@ -2,8 +2,8 @@ import asyncio
 import regex as re
 from telethon import TelegramClient, events
 
-api_id = 29920515  # ваш апи айди
-api_hash = 'e854e06eff9e69c95ab152654297dfb7'  # ваш апи ключ
+api_id = 15591673  # ваш апи айди
+api_hash = 'a0fdf721de50576ee7f94af50e934e37'  # ваш апи ключ
 
 client = TelegramClient(session='session', api_id=api_id, api_hash=api_hash, system_version="4.16.30-vxSOSYNXA ")
 client.start()
